@@ -1,5 +1,11 @@
 const findSum = function(array) {
-  // your code here - don't forget to return a number!
+  function findSum(addittion){
+    var sum = 0;
+    for(var i=0; i<addition.length; i++){
+      sum += addition[i];
+    }
+    return sum;
+  }  
 };
 
 const findFrequency = function(array) {
