@@ -1,15 +1,15 @@
 const findSum = function(array) {
-    function findSum(arr){
+    function findSum(arr)
         var sum = 0;
         for(var i=0; i<arr.length; i++){
             sum += arr[i];
       }
           return sum;
-    }      
+          
   };
   
   const findFrequency = function(array) {
-   function findFrequency(array) {
+   function findFrequency(array) 
       let frequency = {};
       let most = array[0];
       let least = array[0];
@@ -31,11 +31,11 @@ const findSum = function(array) {
     
       const answerObject = { most: most, least: least };
       return answerObject; 
-    }
+    
   };
   
   const isPalindrome = function(str) {
-    function isPalindrome(str) {
+    function isPalindrome(str) 
       str = str.toLowerCase();
       for (let i = 0, j = str.length - 1; i < j; i++, j--) {
         if (str[i] !== str[j]) {
@@ -43,11 +43,11 @@ const findSum = function(array) {
         }
       }
       return true;
-    }
+    
   };
   
   const largestPair = function(array) {
-    function largestPair(arr) {
+    function largestPair(arr) 
     let maxProduct = -Infinity;
     for (let i = 0; i < arr.length - 1; i++) {
       const product = arr[i] * arr[i + 1];
@@ -56,11 +56,11 @@ const findSum = function(array) {
       }
     }
     return maxProduct;
-  }
+  
   };
   
   const removeParenth = function(str) {
-    function removeParenth(str) {
+    function removeParenth(str) 
     
       const openIndex = str.indexOf('(');
       
@@ -71,12 +71,12 @@ const findSum = function(array) {
       const after = str.slice(closeIndex + 1);
       
       return before + after;
-    }
+    
   };
   
   const scoreScrabble = function(str) {
    function scoreScrabble(word) 
-  {
+
     const points = 
     {
       'a': 1, 'e': 1, 'i': 1, 'o': 1, 'u': 1, 'l': 1, 'n': 1, 'r': 1, 's': 1, 't': 1,
@@ -97,5 +97,5 @@ const findSum = function(array) {
       }
     }
     return score;
-  }
+  
   };
