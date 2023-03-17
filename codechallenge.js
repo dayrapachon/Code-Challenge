@@ -1,5 +1,5 @@
 const findSum = function(array) {
-    function findSum(arr)
+   
         var sum = 0;
         for(var i=0; i<arr.length; i++){
             sum += arr[i];
@@ -9,7 +9,7 @@ const findSum = function(array) {
   };
   
   const findFrequency = function(array) {
-   function findFrequency(array) 
+  
       let frequency = {};
       let most = array[0];
       let least = array[0];
@@ -35,7 +35,7 @@ const findSum = function(array) {
   };
   
   const isPalindrome = function(str) {
-    function isPalindrome(str) 
+ 
       str = str.toLowerCase();
       for (let i = 0, j = str.length - 1; i < j; i++, j--) {
         if (str[i] !== str[j]) {
@@ -47,7 +47,7 @@ const findSum = function(array) {
   };
   
   const largestPair = function(array) {
-    function largestPair(arr) 
+   
     let maxProduct = -Infinity;
     for (let i = 0; i < arr.length - 1; i++) {
       const product = arr[i] * arr[i + 1];
@@ -60,7 +60,7 @@ const findSum = function(array) {
   };
   
   const removeParenth = function(str) {
-    function removeParenth(str) 
+   
     
       const openIndex = str.indexOf('(');
       
@@ -75,7 +75,6 @@ const findSum = function(array) {
   };
   
   const scoreScrabble = function(str) {
-   function scoreScrabble(word) 
 
     const points = 
     {
